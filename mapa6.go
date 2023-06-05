@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-// Escreva uma função que receba uma lista de mapas,
-// onde cada mapa contém a contagem de palavras de um texto,
-// e retorne um único mapa contendo a soma de todas as contagens.
-
 func contarPalavras2(s string) map[string]int {
 
 	m1 := make(map[string]int)
